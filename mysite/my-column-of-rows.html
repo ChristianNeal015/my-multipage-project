@@ -3,7 +3,40 @@
 <html>
 <head><title>Rows of Columns</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+            </style>
 </head>
 <body>
-Columns of rows go here.
+    <table> <!-- table -->
+        <h2>Main Information Table</h2>
+        <tr> <!-- table row-->
+            <table style="width:100%">
+                    <tr>
+                      <th>Firstname</th>
+                      <th>Lastname</th> 
+                      <th>Age</th>
+                    </tr>
+                    <tr>
+                      <td>Jill</td>
+                      <td>Smith</td>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <td>Eve</td>
+                      <td>Jackson</td>
+                      <td>94</td>
+                    </tr>
+                    <tr>
+                      <td>John</td>
+                      <td>Doe</td>
+                      <td>80</td>
+                    </tr>
+                  </table>                   
+            <td> <!-- table data -->
+            </td>
+        </tr>
+    </table>
 </body>
